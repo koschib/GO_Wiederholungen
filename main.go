@@ -18,7 +18,8 @@ func main() {
 	fmt.Println("1. Lösungen Aufgabe 1")
 	fmt.Println("2. Lösungen Aufgabe 2")
 	fmt.Println("3. GO Advanced 3")
-	fmt.Println("4. Beenden")
+	fmt.Println("4. BMI Berechnung")
+	fmt.Println("5. Beenden")
 	var eingabe int
 	fmt.Scanf("%d", &eingabe)
 	switch eingabe {
@@ -29,6 +30,9 @@ func main() {
 	case 3:
 		advanced()
 	case 4:
+		bmiaufruf()
+
+	case 5:
 		fmt.Println("Auf Wiedersehen!")
 	default:
 		fmt.Println("Falsche Eingabe!")
@@ -106,5 +110,20 @@ func advanced() {
 
 	fmt.Println("-----------------------------------------------------")
 	fmt.Println("-----------------------------------------------------")
+
+	advanced2.Advanced3()
+
+	fmt.Println("-----------------------------------------------------")
+	fmt.Println("-----------------------------------------------------")
+
+	advanced2.Advanced4()
+
+	fmt.Println("-----------------------------------------------------")
+	fmt.Println("-----------------------------------------------------")
+
+}
+
+func bmiaufruf() {
+	advanced2.Bmi()
 
 }
