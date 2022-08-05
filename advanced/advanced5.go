@@ -35,11 +35,11 @@ func Bmi() {
 	} else if bmi > 25 && bmi <= 30 {
 		fmt.Println("Sie sind übergewichtig.")
 	} else if bmi > 30 && bmi <= 35 {
-		fmt.Println("Sie sind obegewichtig.")
+		fmt.Println("Sie sind übergewichtig.")
 	} else if bmi > 35 && bmi <= 40 {
-		fmt.Println("Sie sind extreme obegewichtig.")
+		fmt.Println("Sie sind extreme übergewichtig.")
 	} else {
-		fmt.Println("Sie sind ernsthaft obegewichtig.")
+		fmt.Println("Sie sind ernsthaft übergewichtig.")
 	}
 
 }
